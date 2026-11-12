@@ -18,14 +18,6 @@ Code will be released soon.
 </p>
 
 <p align="center">
-  <b>Task 3 (dynamic disturbance).</b> <em>Task 1, where the bowl is moved once while the robot is approaching it.</em>
-  <br>
-  <img src="media/real_robot_disturbance.gif" width="900" alt="Real-robot comparison of pi0.5 and RACE under a dynamic disturbance">
-  <br>
-  <em>Both policies keep moving toward the original position of the bowl and fail.</em>
-</p>
-
-<p align="center">
   <em>Real-robot pick-and-place episodes (1× speed). Left: π0.5 replanning every 5 actions.
   Right: RACE replanning every 20 actions (4× longer chunks).
   Both policies use asynchronous execution with
