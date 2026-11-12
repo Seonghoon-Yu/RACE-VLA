@@ -6,9 +6,27 @@ Code will be released soon.
 ## Demo
 
 <p align="center">
-  <img src="media/real_robot.gif" width="900" alt="Real-robot comparison of pi0.5 and RACE">
+  <b>Task 1.</b> <em>"Pick up the gray bowl next to the plate and place it on the plate."</em>
   <br>
-  <em>A real-robot pick-and-place episode (1× speed). Left: π0.5 replanning every 5 actions.
+  <img src="media/real_robot.gif" width="900" alt="Real-robot comparison of pi0.5 and RACE on Task 1">
+</p>
+
+<p align="center">
+  <b>Task 2.</b> <em>"Pick up the gray bowl on the gift box and place it on the plate."</em>
+  <br>
+  <img src="media/real_robot_task2.gif" width="900" alt="Real-robot comparison of pi0.5 and RACE on Task 2">
+</p>
+
+<p align="center">
+  <b>Task 3 (dynamic disturbance).</b> <em>Task 1, where the bowl is moved once while the robot is approaching it.</em>
+  <br>
+  <img src="media/real_robot_disturbance.gif" width="900" alt="Real-robot comparison of pi0.5 and RACE under a dynamic disturbance">
+  <br>
+  <em>Both policies keep moving toward the original position of the bowl and fail.</em>
+</p>
+
+<p align="center">
+  <em>Real-robot pick-and-place episodes (1× speed). Left: π0.5 replanning every 5 actions.
   Right: RACE replanning every 20 actions (4× longer chunks).
   Both policies use asynchronous execution with
   <a href="https://arxiv.org/abs/2506.07339">real-time chunking</a>,
